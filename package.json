@@ -1,0 +1,16 @@
+{
+  "name": "jason-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db": "json-server -w db.json -p 3000",
+    "tunnel": "ngrok http 3000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.1",
+    "ngrok": "^4.3.3"
+  }
+}
